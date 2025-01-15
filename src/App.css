@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Add Cart */
+.add-cart {
+  transition: .3s;
+  background-color: #1d2f61e7;
+  color: #fff;
+}
+
+.add-cart:active {
+  transform: scale(0.97);
+  /* Slightly reduce size */
+}
+
+/* ScrollBar in Top rated*/
+
+.Top-rated-scroll {
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+a,
+button,
+.button,
+.link {
+  cursor: pointer;
+}
+

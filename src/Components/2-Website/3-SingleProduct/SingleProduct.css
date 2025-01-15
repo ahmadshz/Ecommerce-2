@@ -1,0 +1,26 @@
+
+/* style Image Gallery */
+
+.image-gallery-slide img {
+    max-width: 95%; 
+    height: 300px; 
+}
+
+.image-gallery .image-gallery-thumbnail img {
+    height: 100px;
+}
+
+.image-gallery-svg{
+    display:  none;
+}
+
+.content-wrapper{
+    border-top: 1px solid rgba(193, 193, 193, 0.793);
+    margin-top: 50px;
+}
+
+@media (max-width: 426px) {
+.image-gallery .image-gallery-thumbnail img {
+    height: 80px;
+}
+}

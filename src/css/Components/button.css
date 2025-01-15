@@ -1,0 +1,54 @@
+.buttn {
+    width: 22vh;
+    background-color: #22404C !important;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .6s;
+    padding: 10px;
+    font-weight: bold;
+    transition: .4s;
+    border: 1px solid #172856 ;
+}
+.buttn:hover{
+    background-color: #fff  !important;
+    color: #172856 ;
+    border: 1px solid #172856 ;
+}
+.btnLogOut {
+    width: 130px;
+    height: 40px;
+    background-color: #22404C;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .6s;
+}
+
+.btnLogOut:hover {
+    background-color: white;
+    color: #22404C;
+    border: 1.5px solid #22404C;
+}
+.btn-shop{
+    width: 22vh;
+    background-color: #172856 !important;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .6s;
+    padding: 10px;
+    font-weight: bold;
+    transition: .4s;
+    border: 1px solid #172856 ;
+  }
+  
+  .btn-shop:hover{
+    background-color: #fff  !important;
+    color: #172856 ;
+    border: 1px solid #172856 ;
+  }

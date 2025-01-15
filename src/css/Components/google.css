@@ -1,0 +1,21 @@
+a.pink {
+    color:#bd8fa3;
+   
+    padding: 10px;
+    margin-top: 15px;
+    transition: .3s;
+}
+
+a.pink:hover {
+  color: #344C66;
+}
+
+a.pink:active {
+    color: #6e4255;
+}
+a{
+  text-decoration: none;
+}
+
+
+
