@@ -79,7 +79,7 @@ const SingleProduct = () => {
     <div >
       <Navbar />
       <div className='d-flex flex-column justify-content-center align-content-center position-relative' style={{ minHeight: '85vh' }}>
-      <FaArrowLeft className='position-absolute top-0 mt-5 end-0 me-5' size={35} onClick={goBack} />
+        <FaArrowLeft className='position-absolute top-0 mt-2 mt-md-5 end-0 me-2 me-md-5 fs-1 fs-md-4'  onClick={goBack} />
         {
           loading ?
             ///////////// Start Show Skelton
@@ -113,20 +113,20 @@ const SingleProduct = () => {
                         <Skeleton width={50} height={50} />
                       </div>
                     </div>
-                    <Skeleton  height={40} className='mt-4 w-100 rounded-pill '  />
+                    <Skeleton height={40} className='mt-4 w-100 rounded-pill ' />
                   </div>
                 </div>
               </div>
-              
+
             </div>
             ///////////// End Show Skelton
             : (
               ///////////// Start Show SingleProduct
-              <div className='d-flex justify-content-center flex-column flex-md-row gap-2 m-3' >
-                <div className='col-12 col-md-4 '>
+              <div className='d-flex justify-content-center flex-column flex-lg-row gap-3 m-3 mt-5' >
+                <div className='col-12 col-lg-5 mt-3 '>
                   <ImageGallery items={images} />
                 </div>
-                <div className='col-12 col-md-5' >
+                <div className='col-12 col-lg-6' >
                   <div className='mx-2 my-5'>
                     <h1 className="text-start">{product.title}</h1>
                     <p className="text-muted">{product.About}</p>
