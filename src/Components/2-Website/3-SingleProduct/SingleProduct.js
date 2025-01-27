@@ -85,7 +85,7 @@ const SingleProduct = () => {
             ///////////// Start Show Skelton
             <div className=' d-flex flex-column justify-content-center align-items-center flex-md-row gap-2 m-3' >
               {/*  Sketlonn to image */}
-              <div className='col-12 col-md-4 d-flex  align-items-center flex-column'>
+              <div className='col-12 col-md-4 d-flex  align-items-center flex-column mt-5'>
                 <Skeleton style={{ width: 250, height: 250 }} />
                 <div className='d-flex gap-1 justify-content-center '>
                   <Skeleton style={{ width: 100, height: 120 }} />
@@ -93,7 +93,7 @@ const SingleProduct = () => {
                 </div>
               </div>
               {/*  Sketlonn to details product */}
-              <div className='col-12 col-md-5' >
+              <div className='col-12 col-md-5 ' >
                 <div className='mx-2 my-5'>
                   <Skeleton className='mb-2' width={100} height={40} />
                   <Skeleton width={'50%'} height={25} />
@@ -123,10 +123,10 @@ const SingleProduct = () => {
             : (
               ///////////// Start Show SingleProduct
               <div className='d-flex justify-content-center flex-column flex-lg-row gap-3 m-3 mt-5' >
-                <div className='col-12 col-lg-5 mt-3 '>
+                <div className='col-12 col-lg-4 mt-3 '>
                   <ImageGallery items={images} />
                 </div>
-                <div className='col-12 col-lg-6' >
+                <div className='col-12 col-lg-5' >
                   <div className='mx-2 my-5'>
                     <h1 className="text-start">{product.title}</h1>
                     <p className="text-muted">{product.About}</p>

@@ -26,12 +26,12 @@ const Footer = () => {
                                 <div className='  rounded-circle d-flex align-items-center justify-content-center' style={{ backgroundColor: 'black', width: '35px', height: '35px' }}>
                                     <FaGithub style={{fontSize:'18px'}}/>
                                 </div>
-                                https://github...</a>
+                                ahmadshz</a>
                             <a className='d-flex align-items-center gap-2' style={{ color: "white" }} href="mailto:shmeitahmad3@gmail.com">
                                 <div className=' rounded-circle d-flex align-items-center justify-content-center' style={{ backgroundColor: 'black', width: '35px', height: '35px' }}>
                                 <CgMail style={{fontSize:'20px'}} />
                                 </div>
-                                ahm@gmail.com</a>
+                                shmeitahmad3@gmail.com</a>
                             <a className='d-flex align-items-center gap-2' style={{ color: "white" }} href="https://www.instagram.com/ahmd_shmt">
                                 <div className=' rounded-circle d-flex align-items-center justify-content-center' style={{ backgroundColor: '#C12E7E', width: '35px', height: '35px' }}>
                                     <FaInstagram  style={{fontSize:'20px'}}/>
@@ -49,8 +49,8 @@ const Footer = () => {
                             Help
                         </h4>
                         <div className='d-flex flex-column gap-1' flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-                            <a style={{ color: "white" }} href="/register">Register</a>
-                            <a style={{ color: "white" }} href="/login">Sign In</a>
+                            <a style={{ color: "white" }} href="/register">Sign Up</a>
+                            <a style={{ color: "white" }} href="/login">Login</a>
                         </div>
                     </div>
                 </Container>
